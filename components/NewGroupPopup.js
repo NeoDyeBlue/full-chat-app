@@ -40,7 +40,7 @@ export default function NewGroupPopup() {
   });
   useOnClickOutside(elementRef, () => {
     if (!isLoading) {
-      toggleProfilePopup();
+      toggleNewGroupPopup();
     }
   });
 
